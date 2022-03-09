@@ -18,5 +18,8 @@ Python is a popular programming language. Its an easy to learn and powerful prog
 ## **Characteristics of Python**
 
 * **`Interpreted language`** - Before execution, we are not required to compile the python program becuase it is processed at runtime by the interpreter
-* **`Interpreted language`** - Before execution, we are not required to compile the python program becuase it is processed at runtime by the interpreter
-* **`Interpreted language`** - Before execution, we are not required to compile the python program becuase it is processed at runtime by the interpreter
+* **`Cross-platform language`** - Code Once Run Anywhere - Python is a portable language wich equally runs on different platforms like windows, linux, macintosh etc.
+* **`Object-Oriented language`** - Python supports all OOPS concepts like classes, objects, inheritance, encapsulation, polymorphism etc. It helps to develop application with minimal and reusable code
+* **`Free and Open-Source`** - Python is free and open-source which source code is available in public for download, use, modify and distribution
+* **`Dynamically Typed`** - In Python, We don't need to declare the variable data type since interpreter automatically determine the data type ar run time based on the given expression
+
