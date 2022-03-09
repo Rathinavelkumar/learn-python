@@ -1,0 +1,11 @@
+site_name: RATHNA SCHOOLS
+
+nav:
+    - Python Introduction: index.md
+    - Operators: operators.md
+    # - Project Details: project_summary.md
+    # - Career Summary: career_summary.md
+    # - About Me: about_summary.md
+
+theme:
+  name: material  
