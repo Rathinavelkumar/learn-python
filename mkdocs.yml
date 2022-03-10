@@ -2,10 +2,7 @@ site_name: RATHNA SCHOOLS
 
 nav:
     - Python Introduction: index.md
-    - Operators: operators.md
-    # - Project Details: project_summary.md
-    # - Career Summary: career_summary.md
-    # - About Me: about_summary.md
+    - Python Data Types: python_data_types.md
 
 theme:
   name: material  
