@@ -3,6 +3,7 @@ site_name: RATHNA SCHOOLS
 nav:
     - Python Introduction: index.md
     - Python Data Types: python_data_types.md
+    - Python Comments: python_comments.md
 
 theme:
   name: material  
