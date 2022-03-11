@@ -6,6 +6,7 @@ nav:
     - Python Comments: python_comments.md
     - Python Variables: python_variables.md
     - Python Operators: python_operators.md
+    - Python Numbers: python_numbers.md
 
 theme:
   name: material  
