@@ -4,6 +4,8 @@ nav:
     - Python Introduction: index.md
     - Python Data Types: python_data_types.md
     - Python Comments: python_comments.md
+    - Python Variables: python_variables.md
+    - Python Operators: python_operators.md
 
 theme:
   name: material  

@@ -1,4 +1,4 @@
-Python is a popular programming language. Its an easy to learn and powerful programing language. Its's elegant sytax and dynamic typing features, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+Python is a popular programming language. Its an easy to learn and powerful programing language. Its's elegant syntax and dynamic typing features, make it an ideal language for scripting and rapid application development in many areas on most platforms.
 
 ## **History of Python**
 
