@@ -17,7 +17,7 @@ List created by declare all the items inside the square brackets []
     [1, 'PYTHON', '99.0', ['Jan', 'Feb']]
 
 ## **List Reading**
-List created by declare all the items inside the square brackets []
+List items can be read with the help of positive or negative index of that corresponding position
 
 | "Jan"  | "Feb"  | "Mar"  | "Apr"  | "May"  | "Jun"  |
 | :--|:--:| --:| --:| --:| --:|
@@ -89,7 +89,7 @@ Since list are mutable data types in python, we can perform the delete operation
 Since list is immutable data type, id of the list object not changed even after deletion
 
 ## **List Slicing**
-List slicing helps to return the required objects from the given string
+List slicing helps to return the required objects from the given list
 
 **ListName(start Index: stop Index: step Value (optional)]**
 
@@ -107,16 +107,16 @@ Read a object with the help of positive and negative index value
     #List Slicing
     month_list = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
 
-    #Print the first two months
+    #Print the first two items
     print(month_list[0:2])
     print(month_list[-6:2])
     print(month_list[:2])
 
-    #Print the middle three characters
+    #Print the middle two items
     print(month_list[2:4])
     print(month_list[-4:4])
 
-    #Print the last two characters
+    #Print the last two items
     print(month_list[4:6])
     print(month_list[-2:6])
     print(month_list[4:])
