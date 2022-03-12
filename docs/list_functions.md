@@ -108,11 +108,11 @@ This function returns the total occurrence of given value in the given list
 
     #Count Function
     mark_list = [10, 20, 30, 10, 50, 60, 10, 60]
-    print("The count of list is : {}".format(mark_list.count(10)))
+    print("The count of 10 in the list is : {}".format(mark_list.count(10)))
 
  Output
 
-    The count of list is : 3
+    The count of 10 in the list is : 3
 
 ## **Length Function**
 This function returns the total length of given list

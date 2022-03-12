@@ -12,6 +12,7 @@ nav:
     - Python Lists: python_lists.md
     - List Functions: list_functions.md
     - Python Tuples: python_tuples.md
-
+    - Tuple Functions: tuple_functions.md
+    
 theme:
   name: material  
