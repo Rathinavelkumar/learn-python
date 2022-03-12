@@ -14,6 +14,7 @@ nav:
     - Python Tuples: python_tuples.md
     - Tuple Functions: tuple_functions.md
     - Python Sets: python_sets.md
+    - Set Functions: set_functions.md
 
 theme:
   name: material  
