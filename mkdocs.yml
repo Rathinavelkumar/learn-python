@@ -8,6 +8,7 @@ nav:
     - Python Operators: python_operators.md
     - Python Numbers: python_numbers.md
     - Python Strings: python_strings.md
+    - String Functions: string_functions.md
 
 theme:
   name: material  
