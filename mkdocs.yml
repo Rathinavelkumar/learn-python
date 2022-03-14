@@ -18,6 +18,7 @@ nav:
     - Python Dictionary: python_dictionary.md
     - Dict Functions: dict_functions.md
     - Python Keywords: python_keywords.md
+    - Conditional Statement: conditional_statement.md
 
 theme:
   name: material  
