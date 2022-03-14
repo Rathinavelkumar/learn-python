@@ -15,6 +15,9 @@ nav:
     - Tuple Functions: tuple_functions.md
     - Python Sets: python_sets.md
     - Set Functions: set_functions.md
+    - Python Dictionary: python_dictionary.md
+    - Dict Functions: dict_functions.md
+    - Python Keywords: python_keywords.md
 
 theme:
   name: material  
