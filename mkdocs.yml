@@ -19,6 +19,8 @@ nav:
     - Dict Functions: dict_functions.md
     - Python Keywords: python_keywords.md
     - Conditional Statement: conditional_statement.md
+    - While Loop Statements: while_loop.md
+    - For Loop Statements: for_loop.md
 
 theme:
   name: material  

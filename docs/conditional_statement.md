@@ -1,6 +1,6 @@
 Conditional statement are used to check for the condition and based on the result, it will execute the statement
 
-## **IF Statement**
+## **If Statement**
 Check the condition, if its true then execute the statement which is available inside the block
 
     #IF statement
@@ -14,7 +14,7 @@ Check the condition, if its true then execute the statement which is available i
 
     Eligible to Vote
 
-## **IF - ELSE Statement**
+## **If - Else Statement**
 Check the condition, if its true then execute the statement which is available inside the if block, if its false then execute the statement which is available inside the else block
 
     #IF - ELSE statement
@@ -30,7 +30,7 @@ Check the condition, if its true then execute the statement which is available i
 
     InEligible to Vote
 
-## **IF - ELIF - ELSE Statement**
+## **If - Elif - Else Statement**
 With the help of elif keyword, we can check the multiple else condition in python
 
     #IF - ELIF - ELSE statement
@@ -54,7 +54,7 @@ With the help of elif keyword, we can check the multiple else condition in pytho
 
     C Grade
 
-## **Nested IF ELSE Statements**
+## **Nested If Else Statements**
 Inside the conditonal statements, we can nest multiple if and else condition like the below example
 
     #Nested IF-ELSE statements
@@ -82,7 +82,7 @@ Inside the conditonal statements, we can nest multiple if and else condition lik
 
     C Grade
 
-## **Shorthand IF Statement**
+## **Shorthand If Statement**
 If we have only one line inside if block, then we can use shorthand method like below to reduce the coding lines
 
     #Shorthand IF statement
