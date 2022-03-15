@@ -21,6 +21,7 @@ nav:
     - Conditional Statement: conditional_statement.md
     - While Loop Statements: while_loop.md
     - For Loop Statements: for_loop.md
-
+    - User Defined Functions: user_defined_function.md
+    
 theme:
   name: material  
