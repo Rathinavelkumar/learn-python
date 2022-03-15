@@ -22,6 +22,7 @@ nav:
     - While Loop Statements: while_loop.md
     - For Loop Statements: for_loop.md
     - User Defined Functions: user_defined_function.md
+    - Function Arguments: function_arguments.md
     
 theme:
   name: material  
