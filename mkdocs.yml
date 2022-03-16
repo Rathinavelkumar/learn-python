@@ -23,6 +23,7 @@ nav:
     - For Loop Statements: for_loop.md
     - User Defined Functions: user_defined_function.md
     - Function Arguments: function_arguments.md
+    - Special Parameters: special_parameters.md  
     
 theme:
   name: material  
