@@ -1,0 +1,35 @@
+{
+    "cSpell.ignoreWords": [
+        "Bytearray",
+        "Elif",
+        "Fromkey",
+        "Fromkeys",
+        "Kwlist",
+        "Popitem",
+        "RATHNA",
+        "Rossum",
+        "Traceback",
+        "bytesarray",
+        "frozenset",
+        "iskeyword",
+        "memoryview",
+        "nonlocal",
+        "setdefault",
+        "unhashable"
+    ],
+    "cSpell.words": [
+        "isalnum",
+        "isalpha",
+        "Isdisjoint",
+        "islower",
+        "isnumeric",
+        "Issubset",
+        "Issuperset",
+        "isupper",
+        "RATHNASCHOOLS",
+        "RETHNASCHOOLS",
+        "splitted",
+        "unidexed",
+        "unindexed"
+    ]
+}

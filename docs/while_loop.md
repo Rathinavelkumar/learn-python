@@ -1,7 +1,7 @@
 Looping statements are used to execute the same instruction again and again until the conditions get satisfied
 
 ## **While Loop**
-While loop not require any iterable, it will execute a block of code repeatedly upto the condition get fails
+While loop not require any iterable, it will execute a block of code repeatedly until the condition get fails
 
     #While Loop
     count = 0

@@ -92,7 +92,7 @@ Needs to recreate the entire object due to its immutability
 ## **Tuple Deletion**
 Tuple are immutable data types in python, so we cannot perform the specific deletion which we can do in a list
 
-    #Tupe Deletion
+    #Tuple Deletion
     month_list = ("Jan", "Dec", "Feb", "Mar", "Apr", "May", "Jun")
 
     #Specific element deletion raises exception

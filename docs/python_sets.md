@@ -31,7 +31,7 @@ It can store any immutable (int, float, string etc..) data. It cannot store any 
     TypeError: unhashable type: 'list'
 
 ## **Set Reading**
-Since sets are unordered and unidexed, we cannot read the element using index which raises exception
+Since sets are unordered and unindexed, we cannot read the element using index which raises exception
 
     #Set Reading
     languages = {"Python", "Java", "Javascript"}
@@ -70,7 +70,7 @@ In sets, we cannot update the specific element, but we can append items from ano
     File "<string>", line 3, in <module>
     TypeError: 'set' object does not support item assignment
 
-But, We can add the new set to the exisiting set since they are mutable in nature
+But, We can add the new set to the existing set since they are mutable in nature
 
     #Set Update
     languages = {"Python", "Java", "Javascript"}

@@ -45,7 +45,7 @@ When we are calling the function, the order of passing arguments should be match
         return sum
 
     #Function Calling 
-    #Automaticaly 10 is assigns with num1 and 20 is assigns with num2
+    #Automatically 10 is assigns with num1 and 20 is assigns with num2
     result = add(10, 20)
     print(result)
 

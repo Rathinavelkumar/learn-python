@@ -47,7 +47,7 @@ Absolute function helps to convert negative number into positive number
 
     #Absolute Function
 
-    #Convert negative number to postive number 
+    #Convert negative number to positive number 
     print( abs(-100) )
 
  Output

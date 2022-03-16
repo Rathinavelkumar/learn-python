@@ -10,7 +10,7 @@ Various built-in functions are available in Python which helps to perform multip
 
 Below simple program shows the use case of all functions
 
-    #String Functios
+    #String Functions
     school_name = "Rathna Schools"
 
     #Upper Method
@@ -83,7 +83,7 @@ Below simple program shows the use case of all boolean methods
 * `find()` - returns the first occurrence of the specified value, if not available -1 will returns
 
 
-Below simple program shows the use case of all resusable methods
+Below simple program shows the use case of all reusable methods
 
     #Reusable Methods
 
@@ -102,9 +102,9 @@ Below simple program shows the use case of all resusable methods
 
     #Find Method
     print(school_name.find("R"))
-    #First instance considers incase of multiple occurence
+    #First instance considers incase of multiple occurrence
     print(school_name.find("S"))
-    #Returns -1 when no occurence found
+    #Returns -1 when no occurrence found
     print(school_name.find("z"))
 
  Output

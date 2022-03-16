@@ -56,7 +56,7 @@ This helps to return the set difference of one set from another set
 ## **Set symmetric Difference**
 This return the element which is available in any one of the given set. If it is available in both set, it won't return as result
 
-    #Set Symetric Differnence
+    #Set Symmetric Difference
     month_list_old = {"Jan", "Feb", "Mar"}
     month_list_new = {"Jan", "Feb", "Apr"}
     print("The set symmetric difference is :")
@@ -106,12 +106,12 @@ This method returns true if both sets not have any common element
     month_list_old = {"Jan", "Feb", "Mar"}
     month_list_new = {"Apr", "May", "Jun"}
 
-    print("Isdisjoin method result is :")
+    print("Isdisjoint method result is :")
     print(month_list_old.isdisjoint(month_list_new))
 
  Output
 
-    Isdisjoin method result is :
+    Isdisjoint method result is :
     True
 
 ## **Issubset Method**

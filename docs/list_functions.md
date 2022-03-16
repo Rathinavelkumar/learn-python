@@ -130,7 +130,7 @@ This function returns the index of first occurrence for the given value
 
     #Index Method
     mark_list = [10, 20, 30, 10, 50, 60, 10, 60]
-    #Returns the index of first occurence
+    #Returns the index of first occurrence
     print("The index of 60 is : {}".format(mark_list.index(60)))
 
  Output

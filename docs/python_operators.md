@@ -26,10 +26,10 @@ Arithmetic operators are used to perform simple arithmetic operations over the o
     print("Subtraction Result : {}".format(sub_result))
 
     #Multiplication Operation
-    mult_result = 10 * 20
-    print("Multiplication Result : {}".format(mult_result))
+    multi_result = 10 * 20
+    print("Multiplication Result : {}".format(multi_result))
 
-    #Division Oepration (Decimal Value)
+    #Division Operation (Decimal Value)
     div_result = 25 / 10
     print("Division Result : {}".format(div_result))
 
@@ -58,11 +58,11 @@ Arithmetic operators are used to perform simple arithmetic operations over the o
 ## **Comparison operators**
 Comparison operators are used to check for relations between the operands
 
-    #Equal Opeartor
+    #Equal Operator
     num1, num2 = 50, 50
     if num1==num2: print("Equal")
 
-    #Not Equal Operatior
+    #Not Equal Operator
     num1, num2 = 50, 100
     if num1!=num2: print("Not Equal")
 

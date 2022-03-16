@@ -50,7 +50,7 @@ If we call function with more than two keywords arguments raises exception
         result = num1 + num2 + num3 + num4
         print(result)
         
-    #One Posiional and Three Keyword - Raises Exception
+    #One Positional and Three Keyword - Raises Exception
     sum(10, num2=20, num3=30, num4=40)
 
  Output
@@ -76,7 +76,7 @@ Below function indicates we can pass all arguments either positional-or-keyword
     #Two Positional and Two Keyword
     sum(10, 20, num3=30, num4=40)
 
-    #One Posiional and Three Keyword
+    #One Positional and Three Keyword
     sum(10, num2=20, num3=30, num4=40)
 
     #Four Keyword
@@ -101,7 +101,7 @@ Below function indicates that it must call with first two arguments as positiona
     #Two Positional and Two Keyword
     sum(10, 20, num3=30, num4=40)
 
-    #One Posiional and Three Keyword
+    #One Positional and Three Keyword
     sum(10, num2=20, num3=30, num4=40)
 
     #Four Keyword

@@ -17,9 +17,9 @@ Use the hash symbol to write a single-line comment
     I'm print statement with single line comment
 
 ## **Docstring Comments**
-We can use multi-line docstrings as multiline comments. A multi-line docstring starts with triple quotes (""") and ends with triple quotes (""")
+We can use multi-line docstring as multiline comments. A multi-line docstring starts with triple quotes (""") and ends with triple quotes (""")
 
-    """The multline comment
+    """The multiline comment
     using
     Docstring method"""
     print("I'm print statement with Docstring comment")
@@ -31,9 +31,9 @@ We can use multi-line docstrings as multiline comments. A multi-line docstring s
 ## **Multi Line Comments**
 Python does not really have a syntax for multi line comments. We should insert # for each line or use the above mentioned Docstring method to add a multi line comments
 
-    # The multline comment
-    # by insersting hash
-    # in each line of cdde
+    # The multiline comment
+    # by inserting hash
+    # in each line of code
     print("I'm print statement with Multiline comment")
 
  Output

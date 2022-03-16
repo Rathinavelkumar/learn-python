@@ -5,18 +5,18 @@ This function helps to returns the occurrence count of specified object in given
 
     #Count Function
     mark_list = (10, 20, 30, 10, 50, 60, 10, 60)
-    print("The count of 10 in the tuble is : {}".format(mark_list.count(10)))
+    print("The count of 10 in the tuple is : {}".format(mark_list.count(10)))
 
  Output
 
-    The count of 10 in the tuble is : 3
+    The count of 10 in the tuple is : 3
 
 ## **Index Method**
 This function returns the index of first occurrence for the given value
 
     #Index Method
     mark_list = (10, 20, 30, 10, 50, 60, 10, 60)
-    #Returns the index of first occurence
+    #Returns the index of first occurrence
     print("The index of 60 is : {}".format(mark_list.index(60)))
 
  Output

@@ -13,17 +13,17 @@ Python provides multiple number of ways to create a string literal
     double_quoted_data = "I am created with double quotes"
     print(double_quoted_data)
 
-    #Enslosed with trible single quotes
-    trible_single_quoted_data = '''I am created
+    #Enclosed with triple single quotes
+    triple_single_quoted_data = '''I am created
     with
-    trible single quotes'''
-    print(trible_single_quoted_data)
+    triple single quotes'''
+    print(triple_single_quoted_data)
 
-    #Enslosed with trible double quotes
-    trible_double_quoted_data = """I am created
+    #Enclosed with triple double quotes
+    triple_double_quoted_data = """I am created
     with
-    trible double quotes"""
-    print(trible_double_quoted_data)
+    triple double quotes"""
+    print(triple_double_quoted_data)
 
  Output
 
@@ -31,10 +31,10 @@ Python provides multiple number of ways to create a string literal
     I am created with double quotes
     I am created
     with
-    trible single quotes
+    triple single quotes
     I am created
     with
-    trible double quotes
+    triple double quotes
 
 ## **String Reading**
 Read a character with the help of positive and negative index value
@@ -70,10 +70,10 @@ Every character have one positive and negative index in the string like the abov
     S
     S
 
-## **String Updation**
+## **String Update**
 Strings are immutable, which means that cannot update once created
 
-    #String Updation
+    #String Update
     school_name = "RATHNASCHOOLS"
 
     #Item assignment impossible for immutable objects
@@ -87,7 +87,7 @@ Strings are immutable, which means that cannot update once created
 
 Recreation of entire object is the only way for update the immutable objects in python
 
-    #String Updation
+    #String Update
     school_name = "RATHNASCHOOLS"
 
     #Object Recreation

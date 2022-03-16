@@ -124,12 +124,12 @@ Since dictionary are unordered collection, we cannot perform the slicing operati
         4 : "C++"
     }
 
-    print("Dictionary slicing raises exceptio : ")
+    print("Dictionary slicing raises exception : ")
     print(language_dict[1:4])
 
  Output
 
-    Dictionary slicing raises exceptio : 
+    Dictionary slicing raises exception : 
     Traceback (most recent call last):
     File "<string>", line 10, in <module>
     TypeError: unhashable type: 'slice'

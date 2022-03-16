@@ -55,7 +55,7 @@ With the help of elif keyword, we can check the multiple else condition in pytho
     C Grade
 
 ## **Nested If Else Statements**
-Inside the conditonal statements, we can nest multiple if and else condition like the below example
+Inside the conditional statements, we can nest multiple if and else condition like the below example
 
     #Nested IF-ELSE statements
     mark = 75

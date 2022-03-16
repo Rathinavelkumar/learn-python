@@ -57,14 +57,14 @@ Textual data in Python is handled with str objects, or strings.
 There are three basic sequence types: lists, tuples, and range objects
 
     #List data type
-    #Mutbale (values can be change after declaration)
+    #Mutable (values can be change after declaration)
     list_data = [1, 5.0, "RATHNA SCHOOLS"]
     print(type(list_data))
 
     #Tuple data type
-    #Immutbale (values cannot be change after declaration)
-    tuble_data = (1, 5.0, "RATHNA SCHOOLS")
-    print(type(tuble_data))
+    #Immutable (values cannot be change after declaration)
+    tuple_data = (1, 5.0, "RATHNA SCHOOLS")
+    print(type(tuple_data))
 
     #Range data type
     range_data = range(1, 10)
