@@ -18,6 +18,14 @@
         "unhashable"
     ],
     "cSpell.words": [
+        "builtins",
+        "delattr",
+        "delitem",
+        "Deltattr",
+        "getattribute",
+        "getitem",
+        "iadd",
+        "imul",
         "isalnum",
         "isalpha",
         "Isdisjoint",
@@ -27,8 +35,13 @@
         "Issuperset",
         "isupper",
         "RATHNASCHOOLS",
+        "repr",
         "RETHNASCHOOLS",
+        "rmul",
+        "setattr",
+        "setitem",
         "splitted",
+        "subclasshook",
         "unidexed",
         "unindexed"
     ]
