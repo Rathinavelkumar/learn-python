@@ -184,7 +184,7 @@ Callable function helps to check whether the given object argument is callable o
     True
     False
 
-## **chr Function**
+## **Chr Function**
 Chr function helps to convert the ASCII value to its original character 
 
     #Chr Function
