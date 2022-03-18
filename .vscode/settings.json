@@ -25,6 +25,8 @@
         "Divmod",
         "getattribute",
         "getitem",
+        "hashable",
+        "hexa",
         "iadd",
         "imul",
         "isalnum",

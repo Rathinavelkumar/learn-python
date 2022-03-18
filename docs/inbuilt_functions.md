@@ -324,3 +324,279 @@ Divmod function takes two arguments and return its quotient and remainder
  Output
 
     (6, 1)
+
+## **Enumerate Function**
+Enumerate function helps to create enumerate object by adding counter to iterable from 0 index
+
+    #Enumerate Function
+    month_list = ["Jan", "Feb", "Mar"]
+
+    result = list(enumerate(month_list))
+    print(result)
+ 
+ Output
+
+    [(0, 'Jan'), (1, 'Feb'), (2, 'Mar')]
+
+## **Eval Function**
+Eval function helps to evaluates the single expression and return the calculated result of that corresponding expression
+
+    #Eval Function
+    statement = "print('Rathna Schools')"
+    eval(statement)
+
+ Output
+
+    Rathna Schools
+
+## **Exec Function**
+Exec function helps to evaluates the one or more expression and return the calculated result of that corresponding expression or statement
+
+    #Exec Function
+    statement = "for _ in range(0,3):\n\tprint('Rathna Schools')"
+    exec(statement)
+
+ Output
+
+    Rathna Schools
+    Rathna Schools
+    Rathna Schools
+
+## **Filter Function**
+Filter function usually accepts two parameter, a function which should check each elements and the sequence which is needs to gets filtered 
+
+    #Filter Function
+    def find_even(num):
+        if num%2==0: return True
+
+    input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    result = list(filter(find_even, input_list))
+    print(result)
+
+ Output
+
+    [2, 4, 6, 8, 10]
+
+## **Format Function**
+Format function helps to handle the complex string formatting representation easily in python
+
+    input_name = "Rathna Schools"
+
+    #Format Function Different Use Cases
+    print("Learn Python - {0}".format(input_name))
+    print("Learn Python - {}".format(input_name))
+    print("The sum of {0} + {1} is {2}".format(50, 100, 50+100))
+    print("The sum of {} + {} is {}".format(50, 100, 50+100))
+    print("The sum of {num1} + {num2} is {result}".format(num1=50, num2=100, result=50+100))
+    print("The sum of {num1} + {num2} is {result}".format(num2=100, result=50+100, num1=50))
+
+ Output
+
+    Learn Python - Rathna Schools
+    Learn Python - Rathna Schools
+    The sum of 50 + 100 is 150
+    The sum of 50 + 100 is 150
+    The sum of 50 + 100 is 150
+    The sum of 50 + 100 is 150
+
+## **Hash Function**
+Hash function helps to convert the given immutable data into hashable value
+
+    #Hash Function
+    input_name = "Rathna Schools"
+    encoded_result = hash(input_name)
+    #Every time generate new value
+    print(encoded_result)
+
+    #Immutable data raises exception
+    input_list = [1, 2, 3, 4, 5]
+    encoded_list = hash(input_list)
+    print(encoded_list)
+
+ Output
+
+    6055507806959227419
+    Traceback (most recent call last):
+    File "<string>", line 9, in <module>
+    TypeError: unhashable type: 'list'
+
+## **Hex Function**
+Hex function helps to covert the given integer number to hexa decimal value
+
+    #Hex Function
+    input_num = 100
+    result = hex(input_num)
+    print(result)
+
+ Output
+
+    0x64
+
+## **Id Function**
+Id function helps to return the address of the given object in memory. As per python documentation, two objects with non-overlapping lifetimes may have the same id value.
+
+    #Id Function
+    input_num1 = 100
+    result1 = id(input_num1)
+    print(result1)
+
+    #Immutable data types with same value, have same memory location
+    input_num2 = 100
+    result2 = id(input_num2)
+    print(result2)
+
+    #If we change the value, then memory location changes
+    input_num2 = 50
+    result2 = id(input_num2)
+    print(result2)
+
+ Output
+
+    9792160
+    9792160
+    9790560
+
+## **Input Function**
+input() helps to interact with user and get the user's input in string format
+
+    #Input Function
+    input_name = input("Please enter the name : ")
+    print(input_name)
+
+ Output
+
+    Please enter the name : Rathna Schools
+    Rathna Schools
+
+## **Iter Function**
+Iter function helps to convert the given sequence to iterator object. To access the elements in iterator we can use the next() function
+
+    #Iter Function
+    months = ["Jan" , "Feb", "Mar", "Apr"]
+    iter_months = iter(months)
+    try:
+        while iter_months:
+            print(next(iter_months))
+    except StopIteration:
+        print("completed")
+
+ Output
+
+    Jan
+    Feb
+    Mar
+    Apr
+    completed
+
+## **Locals Function**
+Locals function helps to return a dict value of current local symbol table
+
+    #Locals Function
+    def func_without_local():
+        print(locals())
+
+    def func_with_local():
+        name = "Rathna Schools"
+        print(locals())
+
+    #Return empty dict
+    func_without_local()
+
+    #Return local variable dict
+    func_with_local()
+
+ Output
+
+    {}
+    {'name': 'Rathna Schools'}
+
+## **Map Function**
+Map function helps to apply the function and yield the results of each item in given sequence
+
+    #Map Function
+    def two_multiple(num):
+        return num*2
+
+    input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    result = list(map(two_multiple, input_list))
+    print(result)
+
+ Output
+
+    [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+## **Object Function**
+Object function helps to return a new feature less object which can be a base of all classes
+
+    #Object Function
+    obj_example =  object()
+    print(type(obj_example))
+    print(id(obj_example))
+
+ Output
+
+    <class 'object'>
+    140529277524880
+
+## **Repr Function**
+Repr functions are similar to str() function but it return the printable string representation of the given object
+
+    #Repr Function
+    input_name = "Rathna's Schools"
+    print(str(input_name))
+    print(repr(input_name))
+
+ Output
+
+    Rathna's Schools
+    "Rathna's Schools"
+
+## **Reversed Function**
+Reversed function helps to reverse the given iterable and returns the reversed iterator
+
+    #Reversed Function
+    input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(list(reversed(input_list)))
+
+ Output
+
+    [9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+## **Slice Function**
+Slice function helps to return slice object from any sequence object like string, list, tuple etc..
+
+**Syntax**
+
+**slice(start, stop, step)**
+
+    #Slice Function
+    input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    #Different Use Cases
+    print(input_list[0:5])
+    print(input_list[3:8])
+    print(input_list[0:10:2])
+
+ Output
+
+    [1, 2, 3, 4, 5]
+    [4, 5, 6, 7, 8]
+    [1, 3, 5, 7, 9]
+
+## **Zip Function**
+zip(*iterable) function helps to return a ZIP object. we can pass multiple iterables as parameter to ZIP function in order to create a single zip object
+
+    #Zip Function
+    index_list = [1, 2, 3, 4, 5]
+    month_list = ["Jan", "Feb", "Mar", "Apr", "May"]
+
+    for index, month in zip(index_list, month_list):
+        print(index, month)
+
+ Output
+
+    1 Jan
+    2 Feb
+    3 Mar
+    4 Apr
+    5 May
