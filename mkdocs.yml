@@ -29,7 +29,9 @@ nav:
     - Function Arguments: function_arguments.md
     - Special Parameters: special_parameters.md  
     - Lambda Functions: lambda_functions.md  
-    - Python Inbuilt Functions: inbuilt_functions.md  
-    
+    - Python Inbuilt Functions: inbuilt_functions.md
+    - Python Classes & Objects: classes_objects.md
+    - Python Inheritance: python_inheritance.md
+
 theme:
   name: material  
