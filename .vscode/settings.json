@@ -18,6 +18,7 @@
         "unhashable"
     ],
     "cSpell.words": [
+        "abstractmethod",
         "builtins",
         "delattr",
         "delitem",

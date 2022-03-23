@@ -32,6 +32,8 @@ nav:
     - Python Inbuilt Functions: inbuilt_functions.md
     - Python Classes & Objects: classes_objects.md
     - Python Inheritance: python_inheritance.md
+    - Python Abstraction: python_abstraction.md
+    - Python Encapsulation: python_encapsulation.md
 
 theme:
   name: material  
