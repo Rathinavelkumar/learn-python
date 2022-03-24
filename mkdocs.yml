@@ -36,4 +36,12 @@ nav:
     - Python Encapsulation: python_encapsulation.md
 
 theme:
-  name: material  
+  name: material
+
+extra:
+  analytics:
+    provider: google
+    property: G-ME78GL416M
+  social:
+  - icon: fontawesome/solid/globe
+    link: https://www.rathnaschools.com
