@@ -1,4 +1,7 @@
 source env/bin/activate
+pip install mkdocs-material
+mkdocs new .
+
 mkdocs serve
 mkdocs build
 mkdocs gh-deploy
