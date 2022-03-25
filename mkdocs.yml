@@ -36,6 +36,7 @@ nav:
     - Python Encapsulation: python_encapsulation.md
     - Python Polymorphism: python_polymorphism.md
     - Python Iterators: python_iterators.md
+    - Python Generators: python_generators.md
 
 theme:
   name: material
