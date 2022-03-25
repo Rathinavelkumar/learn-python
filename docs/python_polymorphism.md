@@ -99,7 +99,7 @@ In other programming language, we can achieve method overloading by calling the 
     #This method works without any issues
     circle.draw(10)
 
-    #Raises Exception, since second(last) draw mehtod overides the first(previous) method
+    #Raises Exception, since second(last) draw method overrides the first(previous) method
     circle.draw()
 
  Output
