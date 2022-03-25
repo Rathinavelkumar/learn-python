@@ -37,6 +37,7 @@ nav:
     - Python Polymorphism: python_polymorphism.md
     - Python Iterators: python_iterators.md
     - Python Generators: python_generators.md
+    - Python Closures: python_closures.md
 
 theme:
   name: material
