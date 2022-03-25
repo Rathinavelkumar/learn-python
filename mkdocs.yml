@@ -34,6 +34,7 @@ nav:
     - Python Inheritance: python_inheritance.md
     - Python Abstraction: python_abstraction.md
     - Python Encapsulation: python_encapsulation.md
+    - Python Polymorphism: python_polymorphism.md
 
 theme:
   name: material
