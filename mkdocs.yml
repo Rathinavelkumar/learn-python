@@ -38,6 +38,7 @@ nav:
     - Python Iterators: python_iterators.md
     - Python Generators: python_generators.md
     - Python Closures: python_closures.md
+    - Python Decorators: python_decorators.md
 
 theme:
   name: material
