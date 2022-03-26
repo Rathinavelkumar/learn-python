@@ -39,6 +39,7 @@ nav:
     - Python Generators: python_generators.md
     - Python Closures: python_closures.md
     - Python Decorators: python_decorators.md
+    - Python Property: python_property.md
 
 theme:
   name: material
