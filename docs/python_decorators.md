@@ -87,19 +87,19 @@ Handle above exception with decorators without any modification in existing func
 ## **Realtime Example 2**
 Database connection decorator implementation for the required function to perform the database operation like the below example
 
-#DB connector decorator
-def make_connection(func):
-    def inner_func(*args, **kwargs):
-        print("DB connection - Successful")
-        func(*args, **kwargs)
-    return inner_func
+    #DB connector decorator
+    def make_connection(func):
+        def inner_func(*args, **kwargs):
+            print("DB connection - Successful")
+            func(*args, **kwargs)
+        return inner_func
 
-@make_connection
-def read_user(*args, **kwargs):
-    query = "select * from {} where id={}".format(args[0], kwargs['user_id'])
-    print(query)
-    
-read_user("users", user_id="1234")
+    @make_connection
+    def read_user(*args, **kwargs):
+        query = "select * from {} where id={}".format(args[0], kwargs['user_id'])
+        print(query)
+        
+    read_user("users", user_id="1234")
 
  Output
 
