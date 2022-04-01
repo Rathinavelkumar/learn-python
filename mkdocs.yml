@@ -41,6 +41,7 @@ nav:
     - Python Decorators: python_decorators.md
     - Python Property: python_property.md
     - Python Regex: python_regex.md
+    - Exception Handling: python_exceptions.md    
 
 theme:
   name: material
