@@ -45,7 +45,8 @@ nav:
 
 theme:
   name: material
-
+  custom_dir: overrides
+  
 extra:
   analytics:
     provider: google
